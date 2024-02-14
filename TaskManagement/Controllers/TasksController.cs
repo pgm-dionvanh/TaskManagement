@@ -20,9 +20,9 @@ namespace TaskManagement.Controllers
         //Task list
         private static List<Task> _tasks = new List<Task>
         {
-            new Task { Id = 1, Title = "Task 1", Description = "Description for Task 1", DueDate = "2024-02-14" },
-            new Task { Id = 2, Title = "Task 2", Description = "Description for Task 2", DueDate = "2024-02-15" },
-            new Task { Id = 3, Title = "Task 3", Description = "Description for Task 3", DueDate = "2024-02-16" }
+            new Task { Id = 1, Name = "Task 1", Description = "Description for Task 1", DueDate = "2024-02-14" },
+            new Task { Id = 2, Name = "Task 2", Description = "Description for Task 2", DueDate = "2024-02-15" },
+            new Task { Id = 3, Name = "Task 3", Description = "Description for Task 3", DueDate = "2024-02-16" }
         };
 
         // GET: api/tasks
@@ -80,8 +80,9 @@ namespace TaskManagement.Controllers
             /* Save new task */
             _tasks.Add(newTask);
 
+
             /* Return createdAtAction with task */
-            return CreatedAtAction(newTask);
+            return CreatedAtAction(nameof(GetTasks), new { id = newTask.Id }, newTask);
         }
     }
 }
