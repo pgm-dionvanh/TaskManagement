@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\riava\\source\\repos\\TaskManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagement\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagement\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskManagement\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAkAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T10:23:05.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "TaskManagement\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T10:20:29.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\WeatherForecast.cs",
+              "RelativeToolTip": "TaskManagement\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T10:20:24.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeToolTip": "TaskManagement\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T10:20:18.616Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
