@@ -33,16 +33,15 @@ namespace TaskManagement.Controllers
             return _tasks;
         }
 
-        // Delete: api/tasks/5
+        // Delete: api/tasks/{id}
         [HttpDelete("{id}")]
         public IActionResult DeleteTask(int id)
         {
             /* Find task by id */
             var taskToRemove = _tasks.SingleOrDefault(t => t.Id == id);
 
-           /* if task not found */
+           /* If task not found */
            if(taskToRemove == null) return NotFound();
-
 
 
            /* Remove task */
@@ -51,6 +50,26 @@ namespace TaskManagement.Controllers
 
             /* Return 200 ok status code */
             return Ok();
+        }
+
+        // Put: api/tasks/{id}
+        [HttpPut("{id}")]
+        public IActionResult UpdateTask(int id, Task updatedTask)
+        {
+            /* Find task by id */
+            var taskToUpdate = _tasks.SingleOrDefault(_task => _task.Id == id);
+            
+            /* If task not found */
+            if(taskToUpdate == null) return NotFound();
+
+            /* Update task */
+            taskToUpdate.Title = updatedTask.Title;
+            taskToUpdate.Description = updatedTask.Description;
+            taskToUpdate.DueDate = updatedTask.DueDate;
+
+
+            /* Return 200 updated task */
+            return Ok(taskToUpdate);
         }
     }
 }
