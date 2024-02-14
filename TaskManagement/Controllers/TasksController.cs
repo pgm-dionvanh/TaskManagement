@@ -73,7 +73,7 @@ namespace TaskManagement.Controllers
         }
 
         // Post: api/task
-        public ActionResult<Task> CreateTask(Task newTask)
+        public IActionResult CreateTask(Task newTask)
         {
             newTask.Id = _tasks.Count() + 1; /* Count how many task there are then increment with 1 to increment id */
 
