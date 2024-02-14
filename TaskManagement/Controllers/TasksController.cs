@@ -7,6 +7,13 @@ namespace TaskManagement.Controllers
     [ApiController]
     public class TasksController : ControllerBase
     {
-        public TasksController() { }
+        private readonly ILogger<TasksController> _logger;
+
+        public TasksController(ILogger<TasksController> logger)
+        {
+            _logger = logger;
+        }
+
+        /* Todo write crud */
     }
 }
