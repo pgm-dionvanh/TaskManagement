@@ -63,7 +63,7 @@ namespace TaskManagement.Controllers
             if(taskToUpdate == null) return NotFound();
 
             /* Update task */
-            taskToUpdate.Title = updatedTask.Title;
+            taskToUpdate.Name = updatedTask.Name;
             taskToUpdate.Description = updatedTask.Description;
             taskToUpdate.DueDate = updatedTask.DueDate;
 

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\riava\\source\\repos\\TaskManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6D24B743-4427-42FB-A448-FA0BB6E05BF4}|TaskManagementTest\\TaskManagementTest.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagementtest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6D24B743-4427-42FB-A448-FA0BB6E05BF4}|TaskManagementTest\\TaskManagementTest.csproj|solutionrelative:taskmanagementtest\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagement\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\controllers\\taskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,20 @@
       "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagement\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagement\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagement\\services\\tasksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\services\\tasksservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|c:\\users\\riava\\source\\repos\\taskmanagement\\taskmanagement\\persistence\\tasksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCAFF9B1-E750-480B-A744-CD4D8D251708}|TaskManagement\\TaskManagement.csproj|solutionrelative:taskmanagement\\persistence\\tasksdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,25 +43,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TasksController.cs",
-              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\TasksController.cs",
-              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\TasksController.cs",
-              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\TasksController.cs",
-              "RelativeToolTip": "TaskManagement\\Controllers\\TasksController.cs",
-              "ViewState": "AQIAACsAAAAAAAAAAAAQwEQAAAAAAAAA",
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagementTest\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TaskManagementTest\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagementTest\\UnitTest1.cs",
+              "RelativeToolTip": "TaskManagementTest\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T10:23:05.691Z",
+              "WhenOpened": "2024-02-14T12:22:01.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TasksDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Persistence\\TasksDbContext.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Persistence\\TasksDbContext.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Persistence\\TasksDbContext.cs",
+              "RelativeToolTip": "TaskManagement\\Persistence\\TasksDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T11:51:29.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Program.cs",
+              "RelativeToolTip": "TaskManagement\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T10:20:18.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Task.cs",
               "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Task.cs",
               "RelativeDocumentMoniker": "TaskManagement\\Task.cs",
               "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Task.cs",
               "RelativeToolTip": "TaskManagement\\Task.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-14T10:34:56.691Z",
               "EditorCaption": ""
@@ -53,14 +95,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Program.cs",
-              "RelativeDocumentMoniker": "TaskManagement\\Program.cs",
-              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Program.cs",
-              "RelativeToolTip": "TaskManagement\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAKAAAA",
+              "Title": "TasksController.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\TasksController.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Controllers\\TasksController.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Controllers\\TasksController.cs",
+              "RelativeToolTip": "TaskManagement\\Controllers\\TasksController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAiwEEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T10:20:18.616Z",
+              "WhenOpened": "2024-02-14T10:23:05.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TasksService.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Services\\TasksService.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Services\\TasksService.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Services\\TasksService.cs",
+              "RelativeToolTip": "TaskManagement\\Services\\TasksService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T11:56:06.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Task.cs",
+              "DocumentMoniker": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "TaskManagement\\Models\\Task.cs",
+              "ToolTip": "C:\\Users\\riava\\source\\repos\\TaskManagement\\TaskManagement\\Models\\Task.cs",
+              "RelativeToolTip": "TaskManagement\\Models\\Task.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwA0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-14T11:58:09.924Z",
               "EditorCaption": ""
             }
           ]
