@@ -71,5 +71,17 @@ namespace TaskManagement.Controllers
             /* Return 200 updated task */
             return Ok(taskToUpdate);
         }
+
+        // Post: api/task
+        public ActionResult<Task> CreateTask(Task newTask)
+        {
+            newTask.Id = _tasks.Count() + 1; /* Count how many task there are then increment with 1 to increment id */
+
+            /* Save new task */
+            _tasks.Add(newTask);
+
+            /* Return createdAtAction with task */
+            return CreatedAtAction(newTask);
+        }
     }
 }
