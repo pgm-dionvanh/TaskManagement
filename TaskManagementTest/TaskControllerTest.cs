@@ -60,5 +60,29 @@ namespace TaskManagementTest
             Assert.NotNull(deleteTask);
             Assert.IsType<OkResult>(deleteTask);
         }
+
+        [Fact]
+        public void UpdateTask_UpdatesTask()
+        {
+            // Create new controller
+            var controller = new TasksController(_logger);
+
+            // Mock UpdatedTask
+            var updatedTask = new TaskManagement.Task();
+
+            // Change data 
+            updatedTask.Id = 1;
+            updatedTask.Name = "Mock";
+            updatedTask.Description = "Mock test task";
+            updatedTask.DueDate = "Now";
+
+            //Update task
+            var updateTask = controller.UpdateTask(1, updatedTask);
+
+            //Assert
+
+            Assert.NotNull(updateTask);
+            Assert.IsType<OkObjectResult>(updateTask);
+        }
     }
 }
